@@ -1,0 +1,9 @@
+.list_all_language .down {
+    width: max-content;
+}
+
+.poi_embed,
+.marker_embed {
+    top: -9999px;
+    left: -9999px;
+}

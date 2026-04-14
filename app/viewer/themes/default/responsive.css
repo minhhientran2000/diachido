@@ -1,0 +1,127 @@
+@media screen and (max-width: 768px) {
+    .body_instruct {
+        padding: 0 20%;
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .powered_by img {
+        width: 60px;
+    }
+    .type_view {
+        display: none !important;
+    }
+    .list_control {
+        width: 100%;
+        transform: unset;
+    }
+    .list_slider {
+        width: 100%;
+    }
+    .info_box_content {
+        padding: 50px 20px 10px;
+    }
+    .close_info_box {
+        right: 0;
+        top: 0;
+    }
+    .diagram_mobile_control {
+        display: block;
+    }
+    .icon_window {
+        display: none !important;
+    }
+    .position_center {
+        left: unset !important;
+        transform: unset !important;
+        width: 100%;
+        text-align: center;
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .group_list_menu {
+        right: 5px;
+        left: unset;
+        transform: unset;
+        width: unset;
+    }
+    .dropdown_language {
+        left: 40px;
+        bottom: 50px;
+    }
+    .poi_google_maps_content {
+        width: 80%;
+    }
+    .close_location_box {
+        right: 50%;
+        transform: translateX(50%);
+        bottom: calc(20% - 50px);
+    }
+    #floatingSocialShare .a2a_kit {
+        width: max-content;
+    }
+    #floatingSocialShare a {
+        margin: 0 5px;
+        font-size: 12px;
+    }
+    .fullscreen_control {
+        top: 10px !important;
+        right: 10px !important;
+    }
+    .visitors_rt_stats {
+        margin-top: 35px;
+    }
+    .back_to_general_view img {
+        width: 18px;
+    }
+    .back_to_general_view span {
+        font-size: 12px;
+    }
+    .audio_room_control {
+        bottom: 80px;
+    }
+    /*.audio_room_control img{*/
+    /*    width: 100%*/
+    /*}*/
+    .hidden_mb {
+        display: none !important;
+    }
+    .dropdown_tool {
+        bottom: 50px !important;
+        left: unset;
+        right: 50%;
+        transform: translateX(50%);
+        width: max-content;
+    }
+    .body_instruct {
+        padding: 0;
+        width: 100%;
+        overflow: auto;
+        /*height: calc(100% - 200px);*/
+    }
+    img#img_mc {
+        width: 100px;
+    }
+    #img_sound {
+        left: 5px;
+        top: 20px;
+    }
+}
+
+@media screen and (width: 320px) {
+    .dropdown_tool {
+        width: 280px;
+    }
+    .setting_bottom_control div.s1 {
+        margin: 0 5px 15px;
+    }
+    .setting_bottom_control {
+        padding: 15px 5px 20px;
+    }
+    .position_center {
+        width: calc(100% - 20px);
+    }
+}

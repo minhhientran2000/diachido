@@ -1,0 +1,25 @@
+# --- Logs ---
+*.log
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment Configuration ---
+.env
+.env.local
+
+# --- Folders ---
+/node_modules
+/vendor/
+/app/node_modules/
+/app/vendor/
+
+# --- Temporary Files ---
+/tmp
+/temp
+/cache
+/sessions
+.agent
+run_server.bat
+GEMINI.md
